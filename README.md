@@ -3,7 +3,6 @@
 
 Runduo Han, Xiuping Liu, Shangxuan Yi, Yi Zhang, Hongchen Tan
 
-  Dalian University of Technology
 
 
 </div>
