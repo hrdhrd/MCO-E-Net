@@ -1,11 +1,16 @@
 <div align="center">
 <h1>Multi-modal Collaborative Optimization and Expansion Network for Event-assisted Single-eye Expression Recognition</h1>
 
+Runduo Han, Xiuping Liu, Shangxuan Yi, Yi Zhang, Hongchen Tan
+
+  Dalian University of Technology
+
+
 </div>
 
 ## Overview
 <div align="center">
-<img src="Fig/pipeline.pdf" />
+<img src="Fig/pipeline.jpg" width="80%" />
 </div>
 
 ## Abstract
