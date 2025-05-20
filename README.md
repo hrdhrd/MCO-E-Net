@@ -16,12 +16,6 @@ In this paper,  we  proposed  a Multi-modal Collaborative Optimization and Expan
 <img src="Fig/pipeline.jpg" width="80%" />
 </div>
 
-
-## Datasets
-Apply for [SEE](https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition) dataset. 
-
-Modify the dataset path in the `opt.py` file: `"--event_video_path"` and `"--frame_video_path`"
-
 ## Start
 
 ```bash
@@ -29,6 +23,13 @@ git clone https://github.com/hrdhrd/MCO-E-Net
 cd MCO-E-Net
 unzip code.zip
 ```
+
+## Datasets
+Apply for [SEE](https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition) dataset. 
+
+Modify the dataset path in the `opt.py` file: `"--event_video_path"` and `"--frame_video_path`"
+
+
 
 ## Train
 To train the model, *first*:
