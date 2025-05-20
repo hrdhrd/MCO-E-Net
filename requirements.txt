@@ -1,0 +1,10 @@
+causal_conv1d==1.1.0
+einops==0.8.1
+mamba_ssm==1.1.1
+numpy==2.2.6
+opencv_python==4.11.0.86
+opencv_python_headless==4.10.0.84
+Pillow==10.1.0
+Pillow==11.2.1
+torch==2.1.2
+torchvision==0.16.2
