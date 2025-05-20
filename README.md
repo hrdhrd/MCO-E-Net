@@ -42,6 +42,11 @@ To evaluate the model, run:
 ```bash
 CUDA_VISIBLE_DEVICES=0  python evaluation.py   --result_path  your_save_path   --inference  --tensorboard --sample_duration 4    --sample_t_stride 4  --inference_sample_duration 4 
 ```
+## Accuracy
+Calculate UAR, WAR: 
+```bash
+python read_20json_result.py
+```
 
 
 ## Acknowledgement
