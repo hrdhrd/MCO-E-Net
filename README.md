@@ -21,12 +21,18 @@ Apply for [SEE](https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognitio
 
 Modify the dataset path in the `opt.py` file: `"--event_video_path"` and `"--frame_video_path`"
 
+## Start
+
+```bash
+git clone https://github.com/hrdhrd/MCO-E-Net
+cd MCO-E-Net
+unzip code.zip
+```
 
 ## Train
 To train the model, *first*:
 
 ```bash
-cd MCO-E-Net-main
 pip install -r requirements.txt
 mkdir your_save_path
 cd code
