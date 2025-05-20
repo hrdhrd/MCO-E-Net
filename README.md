@@ -41,7 +41,7 @@ cd code
 ```
 *Then*, replace the code in `./mamba_ssm/ops/selective_scan_interface.py` with the code in `BC.py`
 
-*final*,
+*Final*,
 ```bash
 CUDA_VISIBLE_DEVICES=0  python train.py   --result_path  your_save_path   --inference  --tensorboard --sample_duration 4    --sample_t_stride 4  --inference_sample_duration 4
 ```
