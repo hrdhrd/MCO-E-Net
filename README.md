@@ -1,3 +1,4 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2409.16099-B31B1B.svg)](https://arxiv.org/abs/2505.12007)
 <div align="center">
 <h1>Multi-modal Collaborative Optimization and Expansion Network for Event-assisted Single-eye Expression Recognition</h1>
 
