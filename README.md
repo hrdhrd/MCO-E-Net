@@ -16,8 +16,24 @@ In this paper,  we  proposed  a Multi-modal Collaborative Optimization and Expan
 </div>
 
 
+## Datasets
+Apply for [SEE](https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition) dataset. 
+
+Modify the dataset path in the `opt.py` file: `"--event_video_path"` and `"--frame_video_path`"
+
+
 ## Train
-To train the model, run:
+To train the model, *first*:
+
+```bash
+cd MCO-E-Net-main
+pip install -r requirements.txt
+mkdir your_save_path
+cd code
+```
+*Then*, replace the code in `./mamba_ssm/ops/selective_scan_interface.py` with the code in `BC.py`
+
+*final*,
 ```bash
 CUDA_VISIBLE_DEVICES=0  python train.py   --result_path  your_save_path   --inference  --tensorboard --sample_duration 4    --sample_t_stride 4  --inference_sample_duration 4
 ```
