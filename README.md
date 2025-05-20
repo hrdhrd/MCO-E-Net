@@ -60,3 +60,16 @@ python read_20json_result.py
 ## Acknowledgement
 This project is based on Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)), SEEN ([paper](https://arxiv.org/abs/2310.04043), [code](https://github.com/zhanghaiwei1234/Single-eye-Emotion-Recognition)). Thanks for their wonderful works.
 
+## Citation
+If you find MCO-E is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+```bibtex
+@misc{han2025multimodalcollaborativeoptimizationexpansion,
+      title={Multi-modal Collaborative Optimization and Expansion Network for Event-assisted Single-eye Expression Recognition}, 
+      author={Runduo Han and Xiuping Liu and Shangxuan Yi and Yi Zhang and Hongchen Tan},
+      year={2025},
+      eprint={2505.12007},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.12007}, 
+}
+```
